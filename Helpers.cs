@@ -2,7 +2,7 @@ using System.Globalization;
 using System.Linq;
 using System;
 
-namespace SEU_NAMESPACE
+namespace SEU_NAMESPACE_HELPER
 {
     public static class MaskFormatHelper
     {
