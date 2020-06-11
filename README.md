@@ -1,5 +1,11 @@
 ## Helpers CSharp
 
+### Formatações:
+
+- Cpf Cnpj:
+- Cep
+- Valores Númericos com e sem o prefixo R$ ou $
+
 ### Como usar:
 
 Basta copiar o *Helper* para seu projeto e adicionar o namespace na classe que deseja usar, ex:
