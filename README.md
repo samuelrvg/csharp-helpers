@@ -1,10 +1,10 @@
-## Helpers CSharp
+## Helpers Masks
 
 ### Formatações:
 
 - Cpf Cnpj:
 - Cep
-- Valores Númericos com e sem o prefixo R$ ou $
+- Valor monetário com e sem o prefixo R$ ou $
 
 ### Como usar:
 
