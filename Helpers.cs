@@ -8,7 +8,7 @@ namespace SEU_NAMESPACE_HELPER
     {
         public static string MaskCpfCnpj(this string cpfCnpj)
         {
-            if (string.IsNullOrEmpty(cpfCnpj) || !cpfCnpj.All(char.IsDigit)) return string.Empty;
+            if (string.IsNullOrEmpty(cpfCnpj) || !cpfCnpj.All(char.IsDigit)) return cpfCnpj;
 
             if (cpfCnpj.Length == 11)
                 return cpfCnpj = string.Format(@"{0:000\.000\.000\-00}", long.Parse(cpfCnpj));
@@ -20,7 +20,7 @@ namespace SEU_NAMESPACE_HELPER
 
         public static string MaskPhone(this string phone)
         {
-            if (string.IsNullOrEmpty(phone) || !phone.All(char.IsDigit)) return string.Empty;
+            if (string.IsNullOrEmpty(phone) || !phone.All(char.IsDigit)) return cpfCnpj;
 
             if (phone.Length == 11)
                 return long.Parse(phone).ToString("(00) 00000-0000");
